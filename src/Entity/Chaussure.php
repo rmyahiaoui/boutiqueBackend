@@ -9,6 +9,7 @@ use Symfony\Component\Serializer\Annotation\Groups;
 
 /**
  * @ORM\Entity(repositoryClass=ChaussureRepository::class)
+ * @ApiResource()
  */
 class Chaussure
 {
